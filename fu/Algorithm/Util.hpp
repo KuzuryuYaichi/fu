@@ -1,5 +1,3 @@
-#include<string.h>
-
 namespace fu_util
 {
 	template <typename T>
