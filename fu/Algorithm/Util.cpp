@@ -3,9 +3,9 @@
 namespace fu_util
 {
 	template <typename T>
-	void swap(T& _, T& __)
+	inline constexpr void swap(T& _, T& __)
 	{
-		T ___ = _;
+		auto ___ = _;
 		_ = __;
 		__ = ___;
 	}
